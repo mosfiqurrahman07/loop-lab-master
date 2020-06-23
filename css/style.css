@@ -1,0 +1,65 @@
+body {
+    background: #17a2b8;
+    color: #fff; 
+}
+.nav-bg{
+    background-color: transparent;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,64,121,1) 29%, rgba(0,212,255,1) 100%);
+    opacity: 0.8;
+}
+.navbar a{
+    color: #fff;
+}
+.logo{
+    width: 140px;
+}
+.navbar{
+    border-bottom: 3px solid #54b601;
+}
+#home{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+.dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 700px;
+}
+.form-bg{
+    background:#17a2b8;
+    opacity: 0.7;
+}
+.fas{
+    background: #fff;
+    color: #17a2b8;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.card-body{
+    color: #fff;
+}
+.bg-icon{
+    background: #17a2b8;
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.modal-bg{
+    background: #17a2b8;
+}
+@media (max-width: 768px) {
+    #home h1{
+      font-size: 36px; 
+    } 
+}
+
+  
